@@ -2916,6 +2916,22 @@
   dependencies:
     "node-int64" "^0.4.0"
 
+"budget-allocation@file:":
+  "resolved" "file:"
+  "version" "0.1.0"
+  dependencies:
+    "@testing-library/jest-dom" "^5.14.1"
+    "@testing-library/react" "^13.0.0"
+    "@testing-library/user-event" "^13.2.1"
+    "bootstrap" "^5.2.2"
+    "budget-allocation" "file:"
+    "react" "^18.2.0"
+    "react-dom" "^18.2.0"
+    "react-icons" "^4.4.0"
+    "react-scripts" "5.0.1"
+    "uuid" "^9.0.0"
+    "web-vitals" "^2.1.0"
+
 "buffer-from@^1.0.0":
   "integrity" "sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ=="
   "resolved" "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz"
