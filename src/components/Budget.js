@@ -44,7 +44,7 @@ const Budget = () => {
   };
 
   return (
-    <div className="alert alert-secondary">
+    <div className="alert alert-secondary" style={{ backgroundColor: 'grey' }}>
       <span>Budget: {currency}</span>
       <input
         type="number"

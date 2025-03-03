@@ -10,7 +10,7 @@ const CurrencyDropdown = () => {
   };
 
   return (
-    <div>
+    <div className="alert alert-secondary" style={{ backgroundColor: 'grey' }}>
       <label htmlFor="currency-dropdown">Select Currency: </label>
       <select id="currency-dropdown" onChange={handleChange} value={currency}>
         <option value="$">$ Dollar</option>

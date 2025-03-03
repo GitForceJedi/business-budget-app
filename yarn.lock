@@ -2942,6 +2942,23 @@
   "resolved" "https://registry.npmjs.org/builtin-modules/-/builtin-modules-3.3.0.tgz"
   "version" "3.3.0"
 
+"business-budget-app@file:":
+  "resolved" "file:"
+  "version" "0.1.0"
+  dependencies:
+    "@testing-library/jest-dom" "^5.14.1"
+    "@testing-library/react" "^13.0.0"
+    "@testing-library/user-event" "^13.2.1"
+    "bootstrap" "^5.2.2"
+    "budget-allocation" "file:"
+    "business-budget-app" "file:"
+    "react" "^18.2.0"
+    "react-dom" "^18.2.0"
+    "react-icons" "^4.4.0"
+    "react-scripts" "5.0.1"
+    "uuid" "^9.0.0"
+    "web-vitals" "^2.1.0"
+
 "bytes@3.0.0":
   "integrity" "sha512-pMhOfFDPiv9t5jjIXkHosWmkSyQbvsgEVNkz0ERHbuLh2T/7j4Mqqpz523Fe8MVY89KC6Sh/QfS2sM+SjgFDcw=="
   "resolved" "https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz"

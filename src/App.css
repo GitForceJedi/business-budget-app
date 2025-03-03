@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: lightgray; /* Changed to lightgray for consistency */
+  min-height: 100vh; /* Ensure the grey background covers the entire viewport */
 }
 
 .App-logo {
@@ -13,8 +15,25 @@
   }
 }
 
+.container {
+  background-color: lightgray;
+  color: black !important;
+}
+
+.alert {
+  color: black !important;
+}
+
+.alert-primary {
+  color: black !important;
+}
+
+.alert-secondary {
+  color: black !important;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: lightgray; /* Changed to grey for consistency */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +54,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: lightgray;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
 }
